@@ -1,0 +1,16 @@
+Map:
+Water - Walls, Die if you fall down. - CollisionScript
+Rocks - Player is moving on top of them.
+
+Mobs:
+Player - w,a,s,d - MoveScript
+Enemy - Random movement - CollisionScript + Death
+
+Info:
+Score - Score + Highscore 
+Health - Health
+
+Scenes:
+Start
+Info 
+GameScene
