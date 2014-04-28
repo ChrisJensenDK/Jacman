@@ -4,7 +4,7 @@ using System.Collections;
 public class score : MonoBehaviour
 {
 	
-	double Counter = 0;
+	double Counter = 1000000;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,7 +14,7 @@ public class score : MonoBehaviour
 	void Update ()
 	{
 		
-		Counter +=25;
+		Counter -=100;
 	
 	}
 	void OnGUI()

@@ -1,5 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\enemy.cs">
     <Files>
       <File FileName="Assets\Scripts\healthBar.cs" Line="13" Column="34" />
@@ -24,6 +25,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+=======
+  <MonoDevelop.Ide.Workbench />
+>>>>>>> f11d96596ff3b5bc3fe577a412103457faaa5e98
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
