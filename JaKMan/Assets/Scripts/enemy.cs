@@ -8,7 +8,7 @@ public class enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
@@ -20,6 +20,7 @@ public class enemy : MonoBehaviour {
 		if(other.gameObject.name == "JakMan"){
 			Instantiate (exp, transform.position, Quaternion.identity);
 			Destroy (other.gameObject);
+			
 		}
 	}
 }
