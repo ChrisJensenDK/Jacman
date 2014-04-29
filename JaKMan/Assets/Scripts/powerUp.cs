@@ -21,11 +21,9 @@ public class powerUp : MonoBehaviour {
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.name == "JakMan") {
 			Destroy (this.gameObject);
-			Instantiate (exp, transform.position, Quaternion.identity);
+			//Instantiate (exp, transform.position, Quaternion.identity);
 			health = other.gameObject.GetComponent<healthBar>();
 			health.Life++;
-			other.transform.position = health.startPos;
-
 		}
 	}
 
