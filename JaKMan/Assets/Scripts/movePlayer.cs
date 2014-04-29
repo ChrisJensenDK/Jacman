@@ -5,11 +5,11 @@ public class movePlayer : MonoBehaviour {
 	
 	public int playerspeed = 5; // Movement speed
 	public int playerrotate = 100; // Rotation speed
-	public double coinsLeft = 20;
+	public double coinsLeft = 59;
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -37,11 +37,20 @@ public class movePlayer : MonoBehaviour {
 				
 	
 	}
-	void OnCollisionEnter (Collision other){
+	
+	IEnumerator OnCollisionEnter (Collision other){
 		if(other.gameObject.tag == "coin") {
+			yield return StartCoroutine(MyWaitFunction (0.01f));
 			Destroy(other.gameObject);
 			coinsLeft-=1;
 			
 		}
 	}
+	IEnumerator MyWaitFunction (float delay){
+				float timer = Time.time + delay;
+				while (Time.time < timer) {
+					yield return null;
+				}
+			}
+
 }
