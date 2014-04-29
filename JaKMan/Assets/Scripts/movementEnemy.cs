@@ -37,8 +37,7 @@ public class movementEnemy : MonoBehaviour {
 
 		transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
 		var forward = transform.TransformDirection(Vector3.forward);
-		//controller.SimpleMove(forward * speed);
-		transform.Translate(forward * speed);
+		controller.SimpleMove(forward * speed);
 }
 
 
