@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class move : MonoBehaviour {
+public class movePlayer : MonoBehaviour {
 	
 	public int playerspeed = 5; // Movement speed
 	public int playerrotate = 100; // Rotation speed
