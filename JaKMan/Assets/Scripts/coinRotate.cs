@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class coin : MonoBehaviour {
+public class coinRotate : MonoBehaviour {
 
 
 	// Use this for initialization

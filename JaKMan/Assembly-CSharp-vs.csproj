@@ -46,7 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\coin.cs" />
+     <Compile Include="Assets\Scripts\coinRotate.cs" />
+     <Compile Include="Assets\Scripts\coinSound.cs" />
      <Compile Include="Assets\Scripts\coinsLeft.cs" />
      <Compile Include="Assets\Scripts\drowning.cs" />
      <Compile Include="Assets\Scripts\healthBar.cs" />
