@@ -18,7 +18,7 @@ public class movementEnemy : MonoBehaviour {
 		controller = GetComponent<CharacterController>();
 
 		heading = Random.Range(0, 360);
-		transform.eulerAngles = new vector3(0, heading, 0);
+		transform.eulerAngles = new Vector3(0, heading, 0);
 
 		StartCoroutine(NewHeading());
 	}
