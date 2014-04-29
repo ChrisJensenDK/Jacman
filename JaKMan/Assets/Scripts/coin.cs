@@ -5,6 +5,7 @@ public class coin : MonoBehaviour {
 
 	public Transform exp;
 
+
 	// Use this for initialization
 	void Start () {
 	
@@ -16,8 +17,10 @@ public class coin : MonoBehaviour {
 	}
 
 	void OnCollisionEnter (Collision other){
+
 		if(other.gameObject.name == "JakMan") {
 			Destroy(this.gameObject);
 		}
 	}
+	
 }
