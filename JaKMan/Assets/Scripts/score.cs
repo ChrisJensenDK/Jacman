@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 public class score : MonoBehaviour
 {
-	
 	double Counter = 1000000;
+
 	// Use this for initialization
 	void Start () {
 	
