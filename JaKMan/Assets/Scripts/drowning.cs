@@ -18,14 +18,20 @@ public class drowning : MonoBehaviour {
 	
 	}
 
-	void OnCollisionEnter(Collision other){
+	IEnumerator OnCollisionEnter(Collision other){
 		if (other.gameObject.name == "JakMan") {
-			Instantiate (exp, transform.position, Quaternion.identity);
+			yield return StartCoroutine(MyWaitFunction (0.0255f));
 			health = other.gameObject.GetComponent<healthBar>();
 			health.Life--;
 			other.transform.position = health.startPos;
 			
 		}
 	}
-	
+
+	IEnumerator MyWaitFunction (float delay){
+		float timer = Time.time + delay;
+		while (Time.time < timer) {
+			yield return null;
+		}
+	}
 }

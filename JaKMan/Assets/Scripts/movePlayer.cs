@@ -40,12 +40,13 @@ public class movePlayer : MonoBehaviour {
 	
 	IEnumerator OnCollisionEnter (Collision other){
 		if(other.gameObject.tag == "coin") {
-			yield return StartCoroutine(MyWaitFunction (0.01f));
+			yield return StartCoroutine(MyWaitFunction (0.15f));
 			Destroy(other.gameObject);
 			coinsLeft-=1;
-			
 		}
+
 	}
+
 	IEnumerator MyWaitFunction (float delay){
 				float timer = Time.time + delay;
 				while (Time.time < timer) {
