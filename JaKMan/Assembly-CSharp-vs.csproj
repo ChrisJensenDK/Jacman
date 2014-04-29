@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\healthBar.cs" />
      <Compile Include="Assets\Scripts\movePlayer.cs" />
      <Compile Include="Assets\Scripts\movementEnemy.cs" />
+     <Compile Include="Assets\Scripts\powerUp.cs" />
      <Compile Include="Assets\Scripts\score.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
