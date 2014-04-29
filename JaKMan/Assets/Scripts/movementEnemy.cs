@@ -9,22 +9,25 @@ public class movementEnemy : MonoBehaviour {
 	public float speed = 5;
 	public float directionChangeInterval = 1;
 	public float maxHeadingChange = 30;
+	private Vector3 enemyStart;
 
 	CharacterController controller;
 	float heading;
 	Vector3 targetRotation;
+	healthBar health;
 
 	void Awake () {
 		controller = GetComponent<CharacterController>();
 
 		heading = Random.Range(0, 360);
-		transform.eulerAngles = new vector3(0, heading, 0);
+		transform.eulerAngles = new Vector3(0, heading, 0);
 
 		StartCoroutine(NewHeading());
 	}
 	
 	// Use this for initialization
 	void Start () {
+		enemyStart = this.transform.position;
 
 	}
 
@@ -56,5 +59,15 @@ public class movementEnemy : MonoBehaviour {
 		var ceil  = Mathf.Clamp(heading + maxHeadingChange, 0, 360);
 		heading = Random.Range(floor, ceil);
 		targetRotation = new Vector3(0, heading, 0);
+	}
+	
+	void OnCollisionEnter(Collision other){
+		if (other.gameObject.name == "JakMan") {
+			health = other.gameObject.GetComponent<healthBar>();
+			health.Life--;
+			other.transform.position = health.startPos;
+			this.transform.position = enemyStart;
+			
+		}
 	}
 }

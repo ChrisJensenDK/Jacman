@@ -10,7 +10,7 @@ public class healthBar : MonoBehaviour {
 	public Vector3 startPos;
 	
 	void Start () {	
-	 	startPos = transform.position;
+	 	startPos = this.transform.position;
 	}
 	
 	// Update is called once per frame
