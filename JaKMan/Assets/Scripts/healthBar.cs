@@ -5,23 +5,23 @@ public class healthBar : MonoBehaviour {
 
 	// Use this for initialization
 	
-	public int Life = 1;
+	public int Life = 3;
     public Texture TextureHealth;
-	public SphereCollider Player;
+	public Vector3 startPos;
 	
 	void Start () {	
-		Player = gameObject.GetComponent<SphereCollider>();
-	
+	 	startPos = this.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 		
+		
 		    if(Life==0){
-               Application.LoadLevel (0);
-			
+            	Application.LoadLevel (0);	
 		}
+		
 	}
 			
 	void OnGUI(){
@@ -33,7 +33,4 @@ public class healthBar : MonoBehaviour {
 	
 		}
 	}
-	
 }
-		
-
