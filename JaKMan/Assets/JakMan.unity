@@ -7204,7 +7204,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: c9dc7e52e0e704cddb78a861491cee36, type: 2}
   m_PrefabInternal: {fileID: 1247973127}
   m_GameObject: {fileID: 995353337}
-  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+  m_LocalRotation: {x: 0, y: 0, z: .707106888, w: .707106769}
   m_LocalPosition: {x: 45, y: 2.5, z: 45}
   m_LocalScale: {x: 4, y: 3, z: 4}
   m_Children: []
@@ -12110,7 +12110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerspeed: 30
   playerrotate: 200
-  coinsLeft: 60
+  coinsLeft: 59
 --- !u!114 &1514112178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12777,9 +12777,9 @@ GUIText:
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 1c57ff228b1ef6942aee4b3eb4996683, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 20
+  m_FontSize: 25
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -18396,9 +18396,9 @@ GUIText:
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 1c57ff228b1ef6942aee4b3eb4996683, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 0
+  m_FontSize: 25
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2

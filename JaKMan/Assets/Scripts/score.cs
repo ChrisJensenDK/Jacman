@@ -5,7 +5,7 @@ using System.Collections;
 
 public class score : MonoBehaviour
 {
-	double Counter = 1000;
+	double Counter = 50000;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class score : MonoBehaviour
 	void Update ()
 	{
 		
-		Counter -=0.1;
+		Counter -=5;
 
 		if(Counter==0){
 			Application.LoadLevel (2);
