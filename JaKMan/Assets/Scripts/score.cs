@@ -5,20 +5,18 @@ using System.Collections;
 
 public class score : MonoBehaviour
 {
-	double Counter = 50000;
+	double counter = 50000;
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 		
-		Counter -=5;
-
-		if(Counter==0){
+		counter -=5;
+		if(counter==0){
 			Application.LoadLevel (2);
 		}
 	
@@ -26,7 +24,7 @@ public class score : MonoBehaviour
 	void OnGUI()
 	{	
 	
-		guiText.text = "Score: "+Counter; 
+		guiText.text = "Score: "+counter; 
 			
 	}
 }
