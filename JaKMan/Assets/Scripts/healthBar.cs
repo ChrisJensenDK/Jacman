@@ -19,7 +19,7 @@ public class healthBar : MonoBehaviour {
 		
 		
 		    if(Life==0){
-            	Application.LoadLevel (0);	
+            	Application.LoadLevel (2);	
 		}
 		
 	}

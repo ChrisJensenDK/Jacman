@@ -1,0 +1,33 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.3221]
+    Renderer: NVIDIA GeForce GTX 660M  
+    Vendor:   NVIDIA
+    VRAM:     1990 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.121 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+UnloadTime: 0.607306 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1046.
+Total: 1.511349 ms (FindLiveObjects: 0.095044 ms CreateObjectMapping: 0.021864 ms MarkObjects: 0.320386 ms  DeleteObjects: 0.019633 ms)
+

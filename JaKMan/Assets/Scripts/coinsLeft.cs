@@ -12,6 +12,9 @@ public class coinsLeft : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(coins.coinsLeft==0){
+			Application.LoadLevel (2);
+		}
 	
 	}
 	void OnGUI()
