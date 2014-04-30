@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 /// <summary>
+/// Taken from Unity forum as Wander
 /// Creates wandering behaviour for a CharacterController.
 /// </summary>
 [RequireComponent(typeof(CharacterController))]
