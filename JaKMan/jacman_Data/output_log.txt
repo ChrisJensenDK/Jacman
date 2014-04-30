@@ -17,7 +17,7 @@ Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Man
 Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Jakob\Documents\GitHub\Jacman\JaKMan\jacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.121 seconds
+- Completed reload, in  0.130 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -25,9 +25,15 @@ The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1699)
 
-UnloadTime: 0.607306 ms
+UnloadTime: 0.659511 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1046.
-Total: 1.511349 ms (FindLiveObjects: 0.095044 ms CreateObjectMapping: 0.021864 ms MarkObjects: 0.320386 ms  DeleteObjects: 0.019633 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1078.
+Total: 2.310073 ms (FindLiveObjects: 0.099952 ms CreateObjectMapping: 0.022310 ms MarkObjects: 0.329309 ms  DeleteObjects: 0.022757 ms)
+
+UnloadTime: 3.808029 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 158.
+Total: 5.693749 ms (FindLiveObjects: 0.017402 ms CreateObjectMapping: 0.017402 ms MarkObjects: 0.211507 ms  DeleteObjects: 3.661669 ms)
 
