@@ -12110,7 +12110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerspeed: 30
   playerrotate: 200
-  coinsLeft: 2
+  coinsLeft: 59
 --- !u!114 &1514112178
 MonoBehaviour:
   m_ObjectHideFlags: 0
